@@ -1,0 +1,17 @@
+#  application:
+#    name: zuul
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: zuul
+      label: master
+      profile: dev
+#
+#server:
+#  port: 8889
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/

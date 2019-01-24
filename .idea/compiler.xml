@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
+        <module name="config-server" />
+        <module name="eureka" />
+        <module name="serviceconsume-feign" />
+        <module name="serviceconsume-ribbon" />
+        <module name="serviceprovider" />
+        <module name="zipkin" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="serviceconsume-feign" target="1.8" />
+      <module name="serviceconsume-ribbon" target="1.8" />
+      <module name="serviceprovider" target="1.8" />
+      <module name="zipkin" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-server" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="serviceconsume-feign" options="-parameters" />
+      <module name="serviceconsume-ribbon" options="-parameters" />
+      <module name="serviceprovider" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

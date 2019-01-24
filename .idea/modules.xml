@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceconsume-feign/serviceconsume-feign.iml" filepath="$PROJECT_DIR$/serviceconsume-feign/serviceconsume-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceconsume-ribbon/serviceconsume-ribbon.iml" filepath="$PROJECT_DIR$/serviceconsume-ribbon/serviceconsume-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceprovider/serviceprovider.iml" filepath="$PROJECT_DIR$/serviceprovider/serviceprovider.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/图片/config-server/spring-cloud-config/spring-cloud-config.iml" filepath="$USER_HOME$/Desktop/图片/config-server/spring-cloud-config/spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin/zipkin.iml" filepath="$PROJECT_DIR$/zipkin/zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>
